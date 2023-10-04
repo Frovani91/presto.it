@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/b8bf2cd9cb.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/myStyle.css">
+  <link rel="stylesheet" href="./css/mediaQuery.css">
+  <title>Presto.it</title>
+</head>
+
+<body>
+  
+  <header class="my-h1-container height100 px-2 overflow-hidden">
+    <!-- NAVBAR -->
+    <div class="blur">
+      <nav class="navbar navbar-expand-lg container px-3 pt-3 pb-0 mb-0 mb-5 pb-5 " data-bs-theme="light">
+        <div class="container">
+          <div class="width100 d-flex justify-content-between">
+            <a id="navTitle" class="navbar-brand text-white " href="#"><!-- --></a>
+            <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse  " id="navbarColor03">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">HOME
+                <span class="visually-hidden">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ANNUNCI</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+              aria-haspopup="true" aria-expanded="false">CATEGORIE</a>
+              <div id="dropdwonLi" class="dropdown-menu ">
+                <!--  -->
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CHI SIAMO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTATTI</a>
+            </li>
+            
+          </ul>
+          
+        </div>
+      </div>
+    </nav>
+    
+    <!-- TITLE -->
+    <section class="container text-center text-light pt-3">
+      <div class="">
+        <h1 class="my-text-shadow titleAnimation pt-3">
+          Presto.it
+        </h1>
+        <div class="pt-3 pAnimation">
+          <p class="h4 ">
+            Affrettati... <span class="h2 px-1">Presto!</span>
+          </p>
+          <p class="pt-5">
+            Cercalo su Presto
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- SEARCHBAR -->
+    <form method="get">
+      <div class="container m-auto row pt-2 pt-md-5 justify-content-center">
+        <div class="row container-fluid justify-content-center ">
+          <div class="col-12  col-md-4 row  mx-md-0  ">
+            <div class="col-12 my-2 px-0 ">
+              <input type="search" class="form-control" placeholder=" cosa stai cercando?">
+            </div>
+            
+          </div>
+          <div class="col-12 my-2  col-md-3 row  mx-md-0">
+            
+            <select name="categorySelect" id="categorySelect" class="form-select">
+              <option value="">Categorie</option>
+            </select>
+            
+            
+          </div>
+          <div class="col-12  col-md-3 row  mx-md-0">
+            <div class="col-12 my-2 px-0">
+              <input type="text" class="form-control" placeholder=" Dove?">
+            </div>
+          </div>
+          
+        </div>
+        <div class="m-auto row offset-md-6 offset-3 col-6 col-md-3 pt-5 ">
+          <button type="submit" class="btn btn-primary shadow-lg">Cerca</button>
+          
+        </div>
+        
+      </div>
+    </form>
+  </div>
+</header>
+<main class="overflow-hidden mb-5">
+  
+  <!-- CARDS -->
+  <section class="container  mt-md-5 text-center overflow-hidden">
+    <div id="cardsContainer" class="row">
+      <!--  -->
+      
+    </div>
+    
+  </section>
+  
+  <!-- BACKGROUND -->
+  
+  <!-- <div class="my-backround-container pt-5 mt-5 d-none d-lg-block">
+    <div class="blur"></div>
+    
+  </div> -->
+  
+  <!-- WORK WITH US -->
+  
+  <section class="pt-5 row container m-auto">
+    <article class="row col-12 opacity-0 m-auto pt-5">
+      <div class="col-12 col-md-6">
+        <figure>
+          <img src="./img/undraw_interview_re_e5jn.svg" class="img-fluid">
+        </figure>
+      </div>
+      <div class="col-12 col-md-6">
+        <h2>Titolo Szione</h2>
+        <p class="pt-3 my-justify">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quos sequi libero voluptatibus illo
+          nulla, natus aliquam mollitia! Eius veniam nam distinctio repudiandae veritatis nemo soluta repellat
+          accusamus saepe mollitia laboriosam eveniet dicta excepturi sint ex, vitae quidem quas illum obcaecati
+          inventore recusandae maiores totam itaque. Velit esse magni explicabo.
+        </p>
+      </div>
+    </article>
+    <article class="row col-12 opacity-0 pt-5 m-auto">
+      <div class="col-12 col-md-6">
+        <h2>Titolo Szione</h2>
+        <p class="pt-3 my-justify">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quos sequi libero voluptatibus illo
+          nulla, natus aliquam mollitia! Eius veniam nam distinctio repudiandae veritatis nemo soluta repellat
+          accusamus saepe mollitia laboriosam eveniet dicta excepturi sint ex, vitae quidem quas illum obcaecati
+          inventore recusandae maiores totam itaque. Velit esse magni explicabo.
+        </p>
+      </div>
+      <div class="col-12 col-md-6">
+        <figure>
+          <img src="./img/undraw_order_confirmed_re_g0if.svg" class="img-fluid">
+        </figure>
+      </div>
+      
+    </article>
+  </section>
+  
+  
+  
+  
+  
+  
+</main>
+
+<footer class="mt-5 d-flex justify-content-center py-5">
+  
+  <button class="bottone4">
+    <div class="social">
+      <a href="" class="bottone4-social-box">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="bottone4-social-box">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="bottone4-social-box">
+        <i class="fab fa-whatsapp"></i>
+      </a>
+      <a href="" class="bottone4-social-box">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </div>
+    <span>CONTATTACI</span>
+  </button>
+  
+</footer>
+<script src="./js/category.js"></script>
+<script src="./js/function.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

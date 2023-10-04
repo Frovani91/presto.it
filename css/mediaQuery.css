@@ -1,0 +1,14 @@
+@media screen and (max-width: 992px) {
+    .width100 {
+      width: 100%;
+    }
+    .height100{
+        height: 110vh;
+    }
+
+    .myAuto{
+      margin: 0 auto;
+    }
+    
+}
+  
